@@ -12,18 +12,22 @@ I have tested in Mac and Ubuntu. Here is my configuration:
   ```
 
 Firstly:
+
   Add your own pictures in `/prep_script/my_img/img_dir`
+  
   Download in the `prep_scripts` folder:
-    DCNF-FCSP:
-	      https://bitbucket.org/fayao/dcnf-fcsp/get/f66628a4a991.zip 
-   unzip and rename with `fayao-dcnf-new`.
+  
+  DCNF-FCSP:    https://bitbucket.org/fayao/dcnf-fcsp/get/f66628a4a991.zip 
+	      
+  unzip and rename with `fayao-dcnf-new`.
    
-    Then put `run_ucn.m`、`floodFill.py`、`predict_depth.m` 、`Multiscale Combinatorial Grouping`:
-	      https://github.com/jponttuset/mcg/archive/master.zip 
-    in `pre_scripts/fayao-dcnf-new/demo`.
+  Then put `run_ucn.m`、`floodFill.py`、`predict_depth.m` 、`Multiscale Combinatorial Grouping`: https://github.com/jponttuset/mcg/archive/master.zip 
+	      
+  in `pre_scripts/fayao-dcnf-new/demo`.
 
 
 Secondly:
+
   Compute the pictures' depth and segment to make the pictues more realistic.
 
   ```
@@ -49,7 +53,9 @@ Secondly:
   ```
 
 Secondly:
+
   Generate the picture.
+  
   ```
   cd ../../ 
   python gen.py --viz
