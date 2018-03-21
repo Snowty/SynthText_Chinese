@@ -1,8 +1,13 @@
 # Python3 OpenCV3
 Modify from https://github.com/JarveeLee/SynthText_Chinese_version
 
+# code
+The github has the limititation of the file size.So I upload the code in [BaiduYun](https://pan.baidu.com/s/17DF1GnLCT-I0dXJERQE4vA), password:de7l
+
+There is still something wrong with the code.When I use some backgroud pictures,the matlab IDE will be killed.I am trying to figure it out.If you occur the same problem ,please contact me,thanks~
+
 # Steps
-I have tested in Mac and Ubuntu. Here is my configuration:
+I have tested in Ubuntu. Here is my configuration:
   ```
   Python 3.6.4 |Anaconda
   numpy (1.11.0)  
@@ -18,6 +23,8 @@ Firstly:
   Download DCNF-FCSP: https://bitbucket.org/fayao/dcnf-fcsp/get/f66628a4a991.zip in the `prep_scripts` folder，unzip it and rename with `fayao-dcnf-new`.
    
   Then put `run_ucn.m`、`floodFill.py`、`predict_depth.m` 、`Multiscale Combinatorial Grouping`: https://github.com/jponttuset/mcg/archive/master.zip in `pre_scripts/fayao-dcnf-new/demo`.
+  
+  Download [MatConvNet](http://www.vlfeat.org/matconvnet/download/matconvnet-1.0-beta25.tar.gz),rename with `matconvnet`,put it into `pre_scripts/fayao-dcnf-new/libs`
 
 
 Secondly:
@@ -46,7 +53,7 @@ Secondly:
   cp dset.h5 ../../data/
   ```
 
-Secondly:
+Thirdly:
 
   Generate the picture.
   
